@@ -1,0 +1,74 @@
+
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 3px blue;
+    color: gray;
+}
+
+img{
+    width:400px;
+    display: flex;
+    padding: 2px;
+}
+
+p{
+padding: 2px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+}
+
+
+body{
+    margin: 0%;
+}
+.container{
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+    flex-direction: row;
+    background: gray;
+    margin-top: 1px;
+
+}
+
+.image8{
+    text-align: center;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+.container-all{
+    background:rgb(172, 170, 170);
+    margin-top: 4px;
+}
+
+.container-all img{
+    width: 500px;
+    float: right ;
+    margin-left: 5px;
+}
+
+
+.container-all p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 38px;
+    margin-left: 5px;
+}
+
+
+.container-b{
+    background-color: blue;
+
+}
+.column{
+    text-align: center;
+    justify-content: center;
+
+}
+.column img{
+    text-align: center;
+}

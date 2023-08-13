@@ -1,0 +1,56 @@
+header{
+background: #56CCF2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 20px;
+
+
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px red;
+
+}
+.row{
+    display:flex;
+    padding: 1px;
+    
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.column{
+    flex: 25%;
+    padding: 2px;
+
+}
+.column img{
+    margin-top: 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav a { 
+    color: black;
+    padding:2px 20px;
+    
+}
+a:hover{
+    color: purple;
+    text-transform: none;
+    text-decoration: none;
+    }
