@@ -343,12 +343,15 @@ align-items: center;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    min-width: 250px;
 
 }
 
 
 .card .textos{
-    color: #DC2424;
+    color:white;
+    justify-content: space-between;
+    margin-top: auto;
 }
            
 }
